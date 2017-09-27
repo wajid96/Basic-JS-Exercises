@@ -107,9 +107,9 @@ HINT: Use join(), split() and sort() functions
  --------------------------- */
 
 function alphabetic_order(word) {
-  var splits = word.split("");
-  var a_char = splits.sort();
-  return a_char.join("");
+  var splitedword = word.split("");
+  var arrangedword = splitedword.sort();
+  return arrangedword.join("");
 }
 
 console.log("Alphabetic Order:");
